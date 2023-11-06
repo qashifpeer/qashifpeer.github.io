@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://qashifpeer.github.io",
+  "homepage": "https://qashifpeer.github.io/qashifpeer.github.io",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
