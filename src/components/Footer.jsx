@@ -5,68 +5,55 @@ import { BiLogoGmail } from "react-icons/bi";
 
 const Footer = () => {
   return (
-    <div className="h-screen bg-gradient-to-t from-fuchsia to-purple ">
-      <div className="flex flex-col justify-center items-center">
-        <h1 className="text-3xl font-bold w-full text-center my-6 text-secondary mt-20">
-          Connect with me
-        </h1>
-        <div className="grid grid-cols-4 gap-4">
-          <div className="col-span-2">
-            {/* ============email========== */}
-            <div className="flex justify-start items-center mt-14 gap-1">
-              <BiLogoGmail size={16} className="text-secondary" />
-              <span className="text-base font-normal md:px-4 text-secondary">
-                mail.qashifpeer@gmail.com
-              </span>
-            </div>
-            {/* ============social icons */}
-            <div className="flex gap-3 mt-10">
-              <a href="">
-                <FiGithub
-                  size={25}
-                  className="text-secondary hover:translate-y-1 duration-500"
-                />
-              </a>
-              <a href="">
-                <RiTwitterXFill
-                  size={25}
-                  className="text-secondary hover:translate-y-1 duration-500"
-                />
-              </a>
-              <a href="">
-                <FaLinkedin
-                  size={25}
-                  className="text-secondary hover:translate-y-1 duration-500"
-                />
-              </a>
-            </div>
+    <section className="min-h-screen flex items-center justify-center bg-gradient-to-t from-fuchsia to-purple ">
+      <div className="">
+        <div>
+          <div className="flex gap-2">
+            <p className="md:text-6xl text-3xl font-kenia font-extrabold text-secondary">
+              Let's <br /> create
+            </p>
+            <h2 className="md:text-9xl text-6xl font-kenia font-extrabold text-secondary">
+              Something
+            </h2>
           </div>
-          <div className="col-span-2">
-            {/* ============ footer nav items */}
-            <div className="flex flex-col gap-4 items-start py-12">
-              <a
-                className="text-secondary font-normal hover:translate-y-1 duration-300"
-                href=""
-              >
-                My Work
-              </a>
-              <a
-                className="text-secondary font-normal hover:translate-y-1 duration-300"
-                href=""
-              >
-                My Blogs
-              </a>
-              <a
-                className="text-secondary font-normal hover:translate-y-1 duration-300"
-                href=""
-              >
-                My Resume
-              </a>
-            </div>
-          </div>
+          <p className=" text-[9rem] md:text-[13rem] font-kenia leading-none text-secondary">
+            Amazing
+          </p>
         </div>
+
+        <div className="mt-16 flex justify-center items-center">
+          <BiLogoGmail size={16} className="text-secondary" />
+          <span className="text-base font-light px-2 text-secondary">
+            mail.qashifpeer@gmail.com
+          </span>
+        </div>
+
+        <div className="flex gap-3 mt-6 justify-center items-center">
+          <a href="https://github.com/qashifpeer" target="#">
+            <FiGithub
+              size={25}
+              className="text-secondary hover:translate-y-1 duration-500"
+            />
+          </a>
+          <a href="https://twitter.com/qashifpeer" target="#">
+            <RiTwitterXFill
+              size={25}
+              className="text-secondary hover:translate-y-1 duration-500"
+            />
+          </a>
+          <a href="https://linkedin.com/qashifpeer" target="#">
+            <FaLinkedin
+              size={25}
+              className="text-secondary hover:translate-y-1 duration-500"
+            />
+          </a>
+        </div>
+        <hr className="text-gray mt-2 text-center" />
+        <p className="text-sm text-gray font-light mt-2 text-center">
+          © Copyright 2023 - Developed by Qashif Peer. All right reserved.
+        </p>
       </div>
-    </div>
+    </section>
   );
 };
 

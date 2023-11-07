@@ -19,12 +19,14 @@ export default {
       'gray'  : '#9ca3af',
       'purple' : '#7e22ce',
       'offwhite' : '#f3f4f6',
-      'fuchsia' : '#4a044e'
+      'fuchsia' : '#4a044e',
+      'deep-blue' : "#0F172A"
       
     },
     fontFamily : {
       sans: ['Roboto', 'sans-serif'],
       serif: ['Rubik', 'serif' ,'Abril Fatface'],
+      kenia : ['Kenia', 'sans-serif'],
       
     },
     extend: {},
