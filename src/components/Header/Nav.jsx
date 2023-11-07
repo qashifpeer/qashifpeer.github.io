@@ -35,7 +35,7 @@ const Nav = () => {
        </div>
        
         {/*========== mobile menu */}
-        <div className={` bg-secondary w-full left-0 top-20  ${toggle ? "flex absolute " : "hidden"}` }>
+        <div className={` h-screen bg-secondary w-full left-0 top-20  ${toggle ? "flex absolute " : "hidden"}` }>
         <SideMenu  toggle={toggle} />
         </div>
        

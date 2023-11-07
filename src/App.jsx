@@ -12,8 +12,7 @@ const App = () => {
     
       <Header />
       <Outlet />
-      <Blogs />
-
+      
       <Footer />
       
     </>

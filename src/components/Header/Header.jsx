@@ -12,15 +12,7 @@ const Header = () => {
   return (
     <>
     <Nav />
-    {/* <div className="p-12 fixed  right-0">      
     
-        <div className={"flex flex-col items-end  cursor-pointer " + (hamClicked ?'gap-0' : 'gap-2')}  onClick={()=>ham()}>
-          <span className={"border  border-b-2 border-white md:border-primary "  + (hamClicked ? 'rotate-45 w-8 transition-all duration-500'  :'w-11') }></span>
-          <span className={"border w-8 border-b-2 border-white md:border-primary "  + (hamClicked ? '-rotate-45 transition-all duration-500' : '')}></span>
-        </div>
-      
-    </div>
-    { hamClicked ? <Sidebar /> : ""} */}
     </>
   );
 };
