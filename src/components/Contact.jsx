@@ -10,7 +10,7 @@ const Contact = () => {
           Got a question or proposal, or just want to say hello? Go ahead..
         </p>
       </div>
-      <div className="flex gap-12  max-w-[80%]">
+      <div className="flex gap-12  max-w-[70%]">
         <div className="flex flex-col px-4  w-1/2">
           <label
             htmlFor=""
@@ -21,7 +21,7 @@ const Contact = () => {
           <input
             type="text"
             placeholder="Enter your name"
-            className="bg-offwhite border-b border-gray outline-none w-[300px] focus:border-primary placeholder:text-base placeholder:font-light"
+            className="bg-offwhite border-b border-gray outline-none w-[200px] focus:border-primary placeholder:text-base placeholder:font-light"
           />
         </div>
         <div className="flex flex-col px-4 w-1/2">
@@ -34,7 +34,7 @@ const Contact = () => {
           <input
             type="text"
             placeholder="Enter your email address"
-            className="bg-offwhite border-b border-gray outline-none w-[300px] focus:border-primary placeholder:text-base placeholder:font-light"
+            className="bg-offwhite border-b border-gray outline-none w-[200px] focus:border-primary placeholder:text-base placeholder:font-light"
           />
         </div>
       </div>

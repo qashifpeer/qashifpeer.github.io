@@ -24,7 +24,8 @@ export default {
     },
     fontFamily : {
       sans: ['Roboto', 'sans-serif'],
-      serif: ['Rubik', 'serif'],
+      serif: ['Rubik', 'serif' ,'Abril Fatface'],
+      
     },
     extend: {},
   },

@@ -18,7 +18,7 @@ const Nav = () => {
         {/* ============logo================ */}
         <div className="text-3xl font-bold text-primary">
           <Link to="/">
-            kashif<span className="bg-primary text-secondary">peer</span>
+           <h3 className=" px-32">Q<span className="bg-primary text-secondary font-serif p-1">P</span></h3> 
           </Link>
         </div>
         {/* ============= Nav Items */}
@@ -37,9 +37,9 @@ const Nav = () => {
         {/* ================== Hamburger */}
         <div onClick={() => setToggle(!toggle)}>
           {toggle ? (
-            <PiFunnelSimpleBold className="text-primary text-3xl font-bold md:hidden cursor-pointer" />
+            <PiFunnelSimpleBold className="text-primary text-5xl font-bold md:hidden cursor-pointer" />
           ) : (
-            <PiDotsNineBold className="text-primary text-3xl font-bold md:hidden cursor-pointer" />
+            <PiDotsNineBold className="text-primary text-5xl font-bold md:hidden cursor-pointer" />
           )}
         </div>
         {/*========== mobile menu */}
