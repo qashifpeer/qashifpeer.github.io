@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./Header";
+import Header from "./Header/Header";
 import SocialLinks from "./SocialLinks";
 import portrait from "../assets/portrait.jpeg";
 import bgOne from "../assets/bg-1.png";
