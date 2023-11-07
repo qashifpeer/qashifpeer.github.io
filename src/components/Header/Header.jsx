@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import Sidebar from "./Sidebar";
+import Sidebar from "../SideMenu";
+import Nav from "./Nav";
 
 const Header = () => {
   const [hamClicked ,setHamClicked] = useState(false);
@@ -10,7 +11,8 @@ const Header = () => {
   }
   return (
     <>
-    <div className="p-12 fixed  right-0">      
+    <Nav />
+    {/* <div className="p-12 fixed  right-0">      
     
         <div className={"flex flex-col items-end  cursor-pointer " + (hamClicked ?'gap-0' : 'gap-2')}  onClick={()=>ham()}>
           <span className={"border  border-b-2 border-white md:border-primary "  + (hamClicked ? 'rotate-45 w-8 transition-all duration-500'  :'w-11') }></span>
@@ -18,7 +20,7 @@ const Header = () => {
         </div>
       
     </div>
-    { hamClicked ? <Sidebar /> : ""}
+    { hamClicked ? <Sidebar /> : ""} */}
     </>
   );
 };
