@@ -24,8 +24,8 @@ const Hero = () => {
               experience
             </p>
           </div>
-          <div className="flex  md:ml-36 ml-12 mt-10 md:mt-[8rem] gap-4">
-            <p className="text-sm text-secondary font-light  w-[70%] ">
+          <div className="flex  md:ml-36 ml-12 mt-10 md:mt-[6rem] gap-4">
+            <p className="text-sm text-secondary font-light  w-[70%] md:pb-4">
               Highly experienced in creating creating the user interface and
               user experience of websites and web applications.
             </p>

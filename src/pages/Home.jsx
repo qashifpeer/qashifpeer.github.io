@@ -1,5 +1,5 @@
 
-import {Contact,Experience,Footer,Hero,Knowledge ,Skill} from '../components'
+import {ContactForm,Experience,Footer,Hero,Knowledge ,Skill} from '../components'
 import Nav from '../components/Header/Nav'
 
 const Home = () => {
@@ -10,7 +10,7 @@ const Home = () => {
         <Knowledge />
         <Experience />
         <Skill />
-        <Contact /> 
+        <ContactForm /> 
        
         
     </div>
