@@ -25,7 +25,7 @@ const Knowledge = () => {
 
   return (
     <motion.section
-    style={{ scale }}
+    // style={{ scale }}
     
     className="w-full md:h-screen md:flex my-4 ">
       <div className="left md:w-1/2 ">

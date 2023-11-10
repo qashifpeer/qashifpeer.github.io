@@ -6,7 +6,7 @@ const Experience = () => {
   const scale = useTransform(scrollYProgress, [0, 1], [0.2, 2]);
   return (
     <motion.section
-      style={{ scale }}
+      // style={{ scale }}
       className="w-full min-h-screen md:flex bg-primary"
     >
       <div className="md:w-[35%] max-w-[80%] pt-8">
